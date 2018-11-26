@@ -6,9 +6,9 @@ import 'C:/Users/ftd-16/Desktop/code/aboutMe/node_modules/semantic-ui/dist/seman
 import Home from './Containers/Home'
 import '../src/index.css'
 import Bio from './Containers/Bio'
-import lake from '../src/images/astronomy-constellation.jpg'
 import Resume from './Containers/resume'
 import Projects from './Containers/Projects'
+import ExtendedBio from './Containers/extendedBio'
 
 
 
@@ -24,6 +24,7 @@ ReactDOM.render(
                 <Route path='/myStory' component={Bio} />
                 <Route path='/resume' component={Resume}/>
                 <Route path='/projects' component = {Projects}/>
+                <Route path='/bio' component = {ExtendedBio}/>
             </Switch>
         </Layout>
     </Router>, 

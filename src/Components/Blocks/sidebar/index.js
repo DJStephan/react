@@ -36,7 +36,11 @@ const VerticalSidebar = ({ animation, direction, visible }) => (
     </Menu.Item>
     <Menu.Item as={NavLink} to='/myStory'>
       <Icon name='motorcycle' />
-      Bio
+      My Story
+    </Menu.Item>
+    <Menu.Item as={NavLink} to='/bio'>
+      <Icon name='book' />
+      Biography
     </Menu.Item>
     <Menu.Item as={NavLink} to='/resume'>
       <Icon name='graduation cap' />

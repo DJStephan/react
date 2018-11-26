@@ -9,7 +9,7 @@ const BioDiv = styled.div`
     font-size: 16px;
     font-family: 'Sawarabi Mincho', sans-serif;
     height: 1000px;
-    width: 66%;
+    width: 50%;
     color: white;
     right: 200px;
     overflow-y: scroll;
