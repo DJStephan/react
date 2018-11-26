@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import './index.css';
 import Layout from './hoc/layout'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import 'C:/Users/ftd-16/Desktop/code/aboutMe/node_modules/semantic-ui/dist/semantic.min.css';
@@ -22,7 +21,7 @@ ReactDOM.render(
         <Layout>
             <Switch>
                 <Route path='/' exact component={Home} />
-                <Route path='/bio' component={Bio} />
+                <Route path='/myStory' component={Bio} />
                 <Route path='/resume' component={Resume}/>
                 <Route path='/projects' component = {Projects}/>
             </Switch>

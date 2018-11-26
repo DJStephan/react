@@ -34,7 +34,7 @@ const VerticalSidebar = ({ animation, direction, visible }) => (
       <Icon name='home' />
       Home
     </Menu.Item>
-    <Menu.Item as={NavLink} to='/bio'>
+    <Menu.Item as={NavLink} to='/myStory'>
       <Icon name='motorcycle' />
       Bio
     </Menu.Item>
@@ -55,7 +55,7 @@ VerticalSidebar.propTypes = {
   visible: PropTypes.bool,
 }
 
-export default class SidebarExampleTransitions extends Component {
+export default class SidebarMenu extends Component {
   state = {
     animation: 'overlay',
     direction: 'left',

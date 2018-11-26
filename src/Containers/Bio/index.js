@@ -1,20 +1,11 @@
 import React, { Component } from 'react'
-import Slide from 'react-reveal/Slide';
-import Zoom from 'react-reveal/Zoom';
 import styled from 'styled-components'
 import '../../index.css'
-//import Container from '../../Components/Elements/WholePageContainer'
 import motorcycle from '../../images/adventure-bike.jpg'
 import professional from '../../images/professional.jpg'
 import professionalImage from '../../Components/Elements/proImage'
 import Content from '../../Components/Elements/Content'
-import lake from '../../images/astronomy-constellation.jpg'
 import BioDiv from '../../Components/Elements/BioDiv'
-
-const style = {
-
-    opacity: '1'
-}
 
 const Container = styled.div`
   display: flex;

@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
-import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
 import styled from 'styled-components'
 import '../../index.css'
-// import './index.css'
-//import Container from '../../Components/Elements/WholePageContainer'
 import lake from '../../images/astronomy-constellation.jpg'
 
 const Container =  styled.div`
