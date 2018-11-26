@@ -31,7 +31,7 @@ class ExtendedBio extends Component {
                     <BioDiv style={{overflowY : 'auto'}}>
                         <h1>About Me</h1>
                         <p>
-                            {/* <img src={professional} style={professionalImage} /> */}
+                            
                         I was born and raised in a small Northern Michigan town, Traverse City. My father is an 
                         accountant and my mother is a nurse, although she has worked with my father for my entire 
                         life. I have two older sisters, Linda and LeeAnn. Linda is the oldest and is a reverend in 
